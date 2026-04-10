@@ -1,54 +1,16 @@
-git tag api/v0.0.38 --force
+@echo off
+setlocal
+set "BASE_DIR=%cd%"
+set "VERSION=v1.0.0"
 
-git tag cache/redis/v0.1.1 --force
-git tag oss/minio/v0.1.1 --force
-git tag rpc/v0.1.1 --force
-git tag tracer/v0.1.4 --force
-git tag script_engine/v0.0.5 --force
+git tag %VERSION%
 
-git tag database/ent/v0.1.4 --force
-git tag database/gorm/v0.1.4 --force
-git tag database/mongodb/v0.1.3 --force
-git tag database/influxdb/v0.1.3 --force
-git tag database/clickhouse/v0.1.4 --force
-git tag database/elasticsearch/v0.1.3 --force
-git tag database/cassandra/v0.1.2 --force
-git tag database/doris/v0.1.1 --force
-
-git tag logger/v0.1.2 --force
-git tag logger/aliyun/v0.1.2 --force
-git tag logger/fluent/v0.1.2 --force
-git tag logger/logrus/v0.1.2 --force
-git tag logger/tencent/v0.1.2 --force
-git tag logger/zap/v0.1.2 --force
-git tag logger/zeolog/v0.1.2 --force
-
-git tag registry/v0.2.2 --force
-git tag registry/consul/v0.2.2 --force
-git tag registry/etcd/v0.2.2 --force
-git tag registry/eureka/v0.2.2 --force
-git tag registry/kubernetes/v0.2.2 --force
-git tag registry/nacos/v0.2.2 --force
-git tag registry/polaris/v0.2.2 --force
-git tag registry/servicecomb/v0.2.2 --force
-git tag registry/zookeeper/v0.2.2 --force
-
-git tag config/v0.2.2 --force
-git tag config/apollo/v0.2.2 --force
-git tag config/consul/v0.2.2 --force
-git tag config/etcd/v0.2.3 --force
-git tag config/kubernetes/v0.2.2 --force
-git tag config/nacos/v0.2.3 --force
-git tag config/polaris/v0.2.2 --force
-
-git tag transport/asynq/v0.0.6 --force
-git tag transport/kafka/v0.0.4 --force
-git tag transport/mcp/v0.0.3 --force
-git tag transport/mqtt/v0.0.4 --force
-git tag transport/sse/v0.0.4 --force
-
-git tag bootstrap/v0.1.16 --force
-
-git tag v0.7.0
+for /d %%D in (*) do (
+    if exist "%%D\go.mod" (
+        git tag %%D/%VERSION%
+    )
+)
 
 git push origin --tags
+echo All tags pushed!
+pause

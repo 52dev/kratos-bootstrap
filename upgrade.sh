@@ -1,68 +1,21 @@
-#!/usr/bin/env bash
-set -euo pipefail
+#!/bin/bash
+set -e
+BASE_DIR=$(pwd)
+VERSION="v1.0.0"
 
-ROOT_DIR="$(pwd)"
+# 根目录执行
+echo "=== Tidy root directory ==="
+go mod tidy
 
-dirs=(
-  "api"
-  "cache/redis"
-  "tracer"
-  "logger"
-  "logger/aliyun"
-  "logger/fluent"
-  "logger/logrus"
-  "logger/tencent"
-  "logger/zap"
-  "logger/zerolog"
-  "config"
-  "config/apollo"
-  "config/consul"
-  "config/etcd"
-  "config/kubernetes"
-  "config/nacos"
-  "config/polaris"
-  "registry"
-  "registry/consul"
-  "registry/etcd"
-  "registry/eureka"
-  "registry/kubernetes"
-  "registry/nacos"
-  "registry/polaris"
-  "registry/servicecomb"
-  "registry/zookeeper"
-  "oss/minio"
-  "database/cassandra"
-  "database/clickhouse"
-  "database/elasticsearch"
-  "database/ent"
-  "database/gorm"
-  "database/influxdb"
-  "database/mongodb"
-  "rpc"
-  "bootstrap"
-)
-
-for d in "${dirs[@]}"; do
-  target="$ROOT_DIR/$d"
-  if [ -d "$target" ]; then
-    printf "=> [%s] running go get and go mod tidy\n" "$d"
-    (
-      cd "$target"
-      # 获取依赖（递归模块）并整理 go.mod
-      go get -v ./...
-      go mod tidy
-    )
-  else
-    printf "-> skip `%s` (not found)\n" "$d"
-  fi
+# 遍历所有一级子目录
+echo -e "\n=== Tidy submodules ==="
+for dir in */; do
+    if [ -f "${dir}go.mod" ]; then
+        mod_name=$(basename "${dir}")
+        echo "Processing: ${mod_name}"
+        cd "${dir}" && go mod tidy
+        cd "${BASE_DIR}"
+    fi
 done
 
-# 最后在根目录再执行一次
-printf "=> [%s] final go get and go mod tidy\n" "$ROOT_DIR"
-(
-  cd "$ROOT_DIR"
-  go get -v ./...
-  go mod tidy
-)
-
-printf "done\n"
+echo -e "\n✅ All modules tidy finished!"
