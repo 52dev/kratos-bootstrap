@@ -6,7 +6,7 @@ import (
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 func NewClient(conf *conf.OSS) *minio.Client {

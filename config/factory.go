@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-kratos/kratos/v2/config"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 // Factory 根据传入的配置创建一个 Provider 实例。

@@ -1,17 +1,17 @@
-module github.com/tx7do/kratos-bootstrap/rpc
+module github.com/52dev/kratos-bootstrap/rpc
 
-go 1.24.6
+go 1.25.0
 
-replace github.com/tx7do/kratos-bootstrap/api => ../api
+replace github.com/52dev/kratos-bootstrap/api => ../api
 
 require (
 	buf.build/go/protovalidate v1.1.0
+	github.com/52dev/go-utils v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.0
 	github.com/go-kratos/aegis v0.2.0
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/handlers v1.5.2
-	github.com/tx7do/go-utils v1.1.34
-	github.com/tx7do/kratos-bootstrap/api v0.0.33
 	google.golang.org/grpc v1.77.0
 	google.golang.org/protobuf v1.36.11
 )
@@ -40,9 +40,9 @@ require (
 	go.opentelemetry.io/otel v1.39.0 // indirect
 	go.opentelemetry.io/otel/metric v1.39.0 // indirect
 	go.opentelemetry.io/otel/trace v1.39.0 // indirect
-	golang.org/x/exp v0.0.0-20251219203646-944ab1f22d93 // indirect
+	golang.org/x/exp v0.0.0-20260312153236-7ab1446f8b90 // indirect
 	golang.org/x/net v0.48.0 // indirect
-	golang.org/x/sync v0.19.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
 	golang.org/x/sys v0.39.0 // indirect
 	golang.org/x/text v0.32.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20251213004720-97cd9d5aeac2 // indirect

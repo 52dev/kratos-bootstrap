@@ -4,11 +4,11 @@ import (
 	"crypto/tls"
 	"errors"
 
+	elasticsearchCrud "github.com/52dev/go-crud/elasticsearch"
+	tlsUtils "github.com/52dev/go-utils/tls"
 	"github.com/go-kratos/kratos/v2/log"
-	elasticsearchCrud "github.com/tx7do/go-crud/elasticsearch"
-	tlsUtils "github.com/tx7do/go-utils/tls"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 func NewClient(logger log.Logger, cfg *conf.Bootstrap) (*elasticsearchCrud.Client, error) {

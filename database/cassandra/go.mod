@@ -1,14 +1,14 @@
-module github.com/tx7do/kratos-bootstrap/database/cassandra
+module github.com/52dev/kratos-bootstrap/database/cassandra
 
-go 1.24.6
+go 1.25.0
 
-replace github.com/tx7do/kratos-bootstrap/api => ../../api
+replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
+	github.com/52dev/go-utils v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.0
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/gocql/gocql v1.7.0
-	github.com/tx7do/go-utils v1.1.34
-	github.com/tx7do/kratos-bootstrap/api v0.0.33
 )
 
 require (

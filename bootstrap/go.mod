@@ -1,13 +1,13 @@
-module github.com/tx7do/kratos-bootstrap/bootstrap
+module github.com/52dev/kratos-bootstrap/bootstrap
 
 go 1.25.3
 
 replace (
-	github.com/tx7do/kratos-bootstrap/api => ../api
-	github.com/tx7do/kratos-bootstrap/config => ../config
-	github.com/tx7do/kratos-bootstrap/logger => ../logger
-	github.com/tx7do/kratos-bootstrap/registry => ../registry
-	github.com/tx7do/kratos-bootstrap/tracer => ../tracer
+	github.com/52dev/kratos-bootstrap/api => ../api
+	github.com/52dev/kratos-bootstrap/config => ../config
+	github.com/52dev/kratos-bootstrap/logger => ../logger
+	github.com/52dev/kratos-bootstrap/registry => ../registry
+	github.com/52dev/kratos-bootstrap/tracer => ../tracer
 )
 
 require (
@@ -16,13 +16,13 @@ require (
 	github.com/olekukonko/tablewriter v1.1.2
 	github.com/spf13/cobra v1.10.2
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/go-utils v1.1.34
-	github.com/tx7do/go-utils/id v0.0.2
-	github.com/tx7do/kratos-bootstrap/api v0.0.35
-	github.com/tx7do/kratos-bootstrap/config v0.2.2
-	github.com/tx7do/kratos-bootstrap/logger v0.1.2
-	github.com/tx7do/kratos-bootstrap/registry v0.2.2
-	github.com/tx7do/kratos-bootstrap/tracer v0.1.3
+	github.com/52dev/go-utils v1.0.0
+	github.com/52dev/go-utils/id v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/config v1.0.0
+	github.com/52dev/kratos-bootstrap/logger v1.0.0
+	github.com/52dev/kratos-bootstrap/registry v1.0.0
+	github.com/52dev/kratos-bootstrap/tracer v1.0.0
 	golang.org/x/tools v0.40.0
 )
 

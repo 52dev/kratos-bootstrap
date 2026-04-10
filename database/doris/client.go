@@ -3,9 +3,9 @@ package doris
 import (
 	"errors"
 
+	dorisCrud "github.com/52dev/go-crud/doris"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 	"github.com/go-kratos/kratos/v2/log"
-	dorisCrud "github.com/tx7do/go-crud/doris"
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 func NewClient(logger log.Logger, cfg *conf.Bootstrap) (*dorisCrud.Client, error) {

@@ -3,10 +3,10 @@ package mcp
 import (
 	"strings"
 
+	mcpServer "github.com/52dev/kratos-transport/transport/mcp"
 	"github.com/mark3labs/mcp-go/server"
-	mcpServer "github.com/tx7do/kratos-transport/transport/mcp"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 // NewMcpServer creates a new MCP server.

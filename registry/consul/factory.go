@@ -6,9 +6,9 @@ import (
 
 	consulClient "github.com/hashicorp/consul/api"
 
-	baseRegistry "github.com/tx7do/kratos-bootstrap/registry"
+	baseRegistry "github.com/52dev/kratos-bootstrap/registry"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 func init() {

@@ -3,10 +3,10 @@ package influxdb
 import (
 	"errors"
 
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 	"github.com/go-kratos/kratos/v2/log"
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
 
-	influxdbCrud "github.com/tx7do/go-crud/influxdb"
+	influxdbCrud "github.com/52dev/go-crud/influxdb"
 )
 
 func NewClient(logger log.Logger, cfg *conf.Bootstrap) (*influxdbCrud.Client, error) {

@@ -1,14 +1,14 @@
-module github.com/tx7do/kratos-bootstrap/transport/kafka
+module github.com/52dev/kratos-bootstrap/transport/kafka
 
 go 1.25.3
 
-replace github.com/tx7do/kratos-bootstrap/api => ../../api
+replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
-	github.com/tx7do/go-utils v1.1.35
-	github.com/tx7do/kratos-bootstrap/api v0.0.38
-	github.com/tx7do/kratos-transport/broker/kafka v1.3.7
-	github.com/tx7do/kratos-transport/transport/kafka v1.3.6
+	github.com/52dev/go-utils v1.0.0
+	github.com/52dev/kratos-bootstrap/api  v1.0.0
+	github.com/52dev/kratos-transport/broker/kafka  v1.0.0
+	github.com/52dev/kratos-transport/transport/kafka  v1.0.0
 )
 
 require (
@@ -26,10 +26,10 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.26 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/segmentio/kafka-go v0.4.50 // indirect
-	github.com/tx7do/kratos-transport/broker v1.3.2 // indirect
-	github.com/tx7do/kratos-transport/tracing v1.1.1 // indirect
-	github.com/tx7do/kratos-transport/transport v1.3.3 // indirect
-	github.com/tx7do/kratos-transport/transport/keepalive v1.3.3 // indirect
+	github.com/52dev/kratos-transport/broker  v1.0.0 // indirect
+	github.com/52dev/kratos-transport/tracing  v1.0.0 // indirect
+	github.com/52dev/kratos-transport/transport  v1.0.0 // indirect
+	github.com/52dev/kratos-transport/transport/keepalive  v1.0.0 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.2.0 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect

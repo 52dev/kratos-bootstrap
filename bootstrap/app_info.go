@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tx7do/go-utils/id"
-	"github.com/tx7do/go-utils/stringcase"
-	"github.com/tx7do/go-utils/timeutil"
-	"github.com/tx7do/go-utils/trans"
+	"github.com/52dev/go-utils/id"
+	"github.com/52dev/go-utils/stringcase"
+	"github.com/52dev/go-utils/timeutil"
+	"github.com/52dev/go-utils/trans"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 const (

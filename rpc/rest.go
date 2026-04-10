@@ -18,8 +18,8 @@ import (
 	"github.com/go-kratos/kratos/v2/middleware/selector"
 	"github.com/go-kratos/kratos/v2/middleware/tracing"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
-	"github.com/tx7do/kratos-bootstrap/rpc/middleware/validate"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
+	"github.com/52dev/kratos-bootstrap/rpc/middleware/validate"
 )
 
 // CreateRestServer 创建REST服务端

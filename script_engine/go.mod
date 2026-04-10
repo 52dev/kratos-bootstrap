@@ -1,12 +1,12 @@
-module github.com/tx7do/kratos-bootstrap/script_engine
+module github.com/52dev/kratos-bootstrap/script_engine
 
 go 1.24.6
 
-replace github.com/tx7do/kratos-bootstrap/api => ../api
+replace github.com/52dev/kratos-bootstrap/api => ../api
 
 require (
-	github.com/tx7do/go-scripts v0.0.5
-	github.com/tx7do/kratos-bootstrap/api v0.0.33
+	github.com/52dev/go-scripts v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.0
 )
 
 require google.golang.org/protobuf v1.36.11 // indirect

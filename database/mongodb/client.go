@@ -10,9 +10,9 @@ import (
 	mongoV2 "go.mongodb.org/mongo-driver/v2/mongo"
 	optionsV2 "go.mongodb.org/mongo-driver/v2/mongo/options"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 
-	mongodbCrud "github.com/tx7do/go-crud/mongodb"
+	mongodbCrud "github.com/52dev/go-crud/mongodb"
 )
 
 type Client struct {

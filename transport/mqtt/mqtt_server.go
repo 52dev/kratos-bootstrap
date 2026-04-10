@@ -1,9 +1,9 @@
 package mqtt
 
 import (
-	"github.com/tx7do/kratos-transport/transport/mqtt"
+	"github.com/52dev/kratos-transport/transport/mqtt"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 // NewMqttServer creates a new MQTT server.

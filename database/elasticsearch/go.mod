@@ -1,14 +1,14 @@
-module github.com/tx7do/kratos-bootstrap/database/elasticsearch
+module github.com/52dev/kratos-bootstrap/database/elasticsearch
 
 go 1.24.11
 
-replace github.com/tx7do/kratos-bootstrap/api => ../../api
+replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/tx7do/go-crud/elasticsearch v0.0.4
-	github.com/tx7do/go-utils v1.1.34
-	github.com/tx7do/kratos-bootstrap/api v0.0.34
+	github.com/52dev/go-crud/elasticsearch v1.0.0
+	github.com/52dev/go-utils v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.0
 )
 
 require (
@@ -19,7 +19,7 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/gnostic v0.7.1 // indirect
 	github.com/google/gnostic-models v0.7.1 // indirect
-	github.com/tx7do/go-crud/api v0.0.7 // indirect
+	github.com/52dev/go-crud/api v1.0.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.39.0 // indirect
 	go.opentelemetry.io/otel/metric v1.39.0 // indirect

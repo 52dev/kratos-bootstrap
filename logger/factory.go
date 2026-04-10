@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 	"github.com/go-kratos/kratos/v2/log"
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 type FactoryFunc func(cfg *conf.Logger) (log.Logger, error)

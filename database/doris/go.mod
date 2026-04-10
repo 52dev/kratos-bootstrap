@@ -1,13 +1,13 @@
-module github.com/tx7do/kratos-bootstrap/database/doris
+module github.com/52dev/kratos-bootstrap/database/doris
 
 go 1.25.3
 
-replace github.com/tx7do/kratos-bootstrap/api => ../../api
+replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/tx7do/go-crud/doris v0.0.1
-	github.com/tx7do/kratos-bootstrap/api v0.0.36
+	github.com/52dev/go-crud/doris v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.0
 )
 
 require (

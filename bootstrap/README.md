@@ -18,31 +18,31 @@
 package main
 
 import (
-    "github.com/tx7do/kratos-bootstrap/bootstrap"
-    "github.com/tx7do/kratos-bootstrap/bootstrap/api/gen/go/conf/v1"
+    "github.com/52dev/kratos-bootstrap/bootstrap"
+    "github.com/52dev/kratos-bootstrap/bootstrap/api/gen/go/conf/v1"
 
-	//_ "github.com/tx7do/kratos-bootstrap/config/apollo"
-	//_ "github.com/tx7do/kratos-bootstrap/config/consul"
-	_ "github.com/tx7do/kratos-bootstrap/config/etcd"
-	//_ "github.com/tx7do/kratos-bootstrap/config/kubernetes"
-	//_ "github.com/tx7do/kratos-bootstrap/config/nacos"
-	//_ "github.com/tx7do/kratos-bootstrap/config/polaris"
+	//_ "github.com/52dev/kratos-bootstrap/config/apollo"
+	//_ "github.com/52dev/kratos-bootstrap/config/consul"
+	_ "github.com/52dev/kratos-bootstrap/config/etcd"
+	//_ "github.com/52dev/kratos-bootstrap/config/kubernetes"
+	//_ "github.com/52dev/kratos-bootstrap/config/nacos"
+	//_ "github.com/52dev/kratos-bootstrap/config/polaris"
 
-	//_ "github.com/tx7do/kratos-bootstrap/logger/aliyun"
-	//_ "github.com/tx7do/kratos-bootstrap/logger/fluent"
-	//_ "github.com/tx7do/kratos-bootstrap/logger/logrus"
-	//_ "github.com/tx7do/kratos-bootstrap/logger/tencent"
-	//_ "github.com/tx7do/kratos-bootstrap/logger/zap"
-	//_ "github.com/tx7do/kratos-bootstrap/logger/zerolog"
+	//_ "github.com/52dev/kratos-bootstrap/logger/aliyun"
+	//_ "github.com/52dev/kratos-bootstrap/logger/fluent"
+	//_ "github.com/52dev/kratos-bootstrap/logger/logrus"
+	//_ "github.com/52dev/kratos-bootstrap/logger/tencent"
+	//_ "github.com/52dev/kratos-bootstrap/logger/zap"
+	//_ "github.com/52dev/kratos-bootstrap/logger/zerolog"
 	
-	//_ "github.com/tx7do/kratos-bootstrap/registry/consul"
-	_ "github.com/tx7do/kratos-bootstrap/registry/etcd"
-	//_ "github.com/tx7do/kratos-bootstrap/registry/eureka"
-	//_ "github.com/tx7do/kratos-bootstrap/registry/kubernetes"
-	//_ "github.com/tx7do/kratos-bootstrap/registry/nacos"
-	//_ "github.com/tx7do/kratos-bootstrap/registry/polaris"
-	//_ "github.com/tx7do/kratos-bootstrap/registry/servicecomb"
-	//_ "github.com/tx7do/kratos-bootstrap/registry/zookeeper"
+	//_ "github.com/52dev/kratos-bootstrap/registry/consul"
+	_ "github.com/52dev/kratos-bootstrap/registry/etcd"
+	//_ "github.com/52dev/kratos-bootstrap/registry/eureka"
+	//_ "github.com/52dev/kratos-bootstrap/registry/kubernetes"
+	//_ "github.com/52dev/kratos-bootstrap/registry/nacos"
+	//_ "github.com/52dev/kratos-bootstrap/registry/polaris"
+	//_ "github.com/52dev/kratos-bootstrap/registry/servicecomb"
+	//_ "github.com/52dev/kratos-bootstrap/registry/zookeeper"
 )
 
 var version string

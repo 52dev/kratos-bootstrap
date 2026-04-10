@@ -1,17 +1,17 @@
-module github.com/tx7do/kratos-bootstrap/config/apollo
+module github.com/52dev/kratos-bootstrap/config/apollo
 
 go 1.24.6
 
 replace (
-	github.com/tx7do/kratos-bootstrap/api => ../../api
-	github.com/tx7do/kratos-bootstrap/config => ../
+	github.com/52dev/kratos-bootstrap/api => ../../api
+	github.com/52dev/kratos-bootstrap/config => ../
 )
 
 require (
 	github.com/apolloconfig/agollo/v4 v4.4.0
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/tx7do/kratos-bootstrap/api v0.0.33
-	github.com/tx7do/kratos-bootstrap/config v0.2.2
+	github.com/52dev/kratos-bootstrap/api v0.0.33
+	github.com/52dev/kratos-bootstrap/config v0.2.2
 )
 
 require (

@@ -3,8 +3,8 @@ package rpc
 import (
 	"crypto/tls"
 
-	tlsUtils "github.com/tx7do/go-utils/tls"
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	tlsUtils "github.com/52dev/go-utils/tls"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 func loadServerTlsConfig(cfg *conf.TLS) (*tls.Config, error) {

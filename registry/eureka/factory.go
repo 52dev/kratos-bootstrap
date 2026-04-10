@@ -4,8 +4,8 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/registry"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
-	baseRegistry "github.com/tx7do/kratos-bootstrap/registry"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
+	baseRegistry "github.com/52dev/kratos-bootstrap/registry"
 )
 
 func init() {

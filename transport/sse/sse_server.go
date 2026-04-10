@@ -1,9 +1,9 @@
 package sse
 
 import (
-	"github.com/tx7do/kratos-transport/transport/sse"
+	"github.com/52dev/kratos-transport/transport/sse"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 // NewSseServer creates a new SSE server.

@@ -5,10 +5,10 @@ import (
 
 	"github.com/hibiken/asynq"
 
-	tlsUtils "github.com/tx7do/go-utils/tls"
+	tlsUtils "github.com/52dev/go-utils/tls"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
-	asynqTransport "github.com/tx7do/kratos-transport/transport/asynq"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
+	asynqTransport "github.com/52dev/kratos-transport/transport/asynq"
 )
 
 // NewAsynqServer creates a new Asynq server.

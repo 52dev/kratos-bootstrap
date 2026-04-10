@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-bootstrap
+module github.com/52dev/kratos-bootstrap
 
 go 1.23.0
 

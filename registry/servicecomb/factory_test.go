@@ -3,8 +3,8 @@ package servicecomb
 import (
 	"testing"
 
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 	"github.com/stretchr/testify/assert"
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 func TestNewServicecombRegistry(t *testing.T) {

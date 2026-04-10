@@ -8,10 +8,10 @@ import (
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/transport"
 
-	bConfig "github.com/tx7do/kratos-bootstrap/config"
-	bLogger "github.com/tx7do/kratos-bootstrap/logger"
-	bRegistry "github.com/tx7do/kratos-bootstrap/registry"
-	"github.com/tx7do/kratos-bootstrap/tracer"
+	bConfig "github.com/52dev/kratos-bootstrap/config"
+	bLogger "github.com/52dev/kratos-bootstrap/logger"
+	bRegistry "github.com/52dev/kratos-bootstrap/registry"
+	"github.com/52dev/kratos-bootstrap/tracer"
 )
 
 // NewApp 创建应用程序

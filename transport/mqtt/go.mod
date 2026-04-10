@@ -1,12 +1,12 @@
-module github.com/tx7do/kratos-bootstrap/transport/mqtt
+module github.com/52dev/kratos-bootstrap/transport/mqtt
 
 go 1.25.3
 
-replace github.com/tx7do/kratos-bootstrap/api => ../../api
+replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
-	github.com/tx7do/kratos-bootstrap/api v0.0.38
-	github.com/tx7do/kratos-transport/transport/mqtt v1.3.2
+	github.com/52dev/kratos-bootstrap/api v0.0.38
+	github.com/52dev/kratos-transport/transport/mqtt  v1.0.0
 )
 
 require (
@@ -21,11 +21,11 @@ require (
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.28.0 // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
-	github.com/tx7do/kratos-transport/broker v1.3.2 // indirect
-	github.com/tx7do/kratos-transport/broker/mqtt v1.3.3 // indirect
-	github.com/tx7do/kratos-transport/tracing v1.1.1 // indirect
-	github.com/tx7do/kratos-transport/transport v1.3.3 // indirect
-	github.com/tx7do/kratos-transport/transport/keepalive v1.3.3 // indirect
+	github.com/52dev/kratos-transport/broker  v1.0.0 // indirect
+	github.com/52dev/kratos-transport/broker/mqtt  v1.0.0 // indirect
+	github.com/52dev/kratos-transport/tracing  v1.0.0 // indirect
+	github.com/52dev/kratos-transport/transport  v1.0.0 // indirect
+	github.com/52dev/kratos-transport/transport/keepalive v1.0.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.42.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.42.0 // indirect

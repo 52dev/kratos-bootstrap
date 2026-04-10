@@ -1,13 +1,13 @@
-module github.com/tx7do/kratos-bootstrap/database/gorm
+module github.com/52dev/kratos-bootstrap/database/gorm
 
 go 1.25.4
 
-replace github.com/tx7do/kratos-bootstrap/api => ../../api
+replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/tx7do/go-crud/gorm v0.0.18
-	github.com/tx7do/kratos-bootstrap/api v0.0.34
+	github.com/52dev/go-crud/gorm v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.0
 )
 
 require (
@@ -70,10 +70,10 @@ require (
 	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/sirupsen/logrus v1.9.4 // indirect
 	github.com/tjfoc/gmsm v1.4.1 // indirect
-	github.com/tx7do/go-crud/api v0.0.7 // indirect
-	github.com/tx7do/go-crud/pagination v0.0.11 // indirect
-	github.com/tx7do/go-utils v1.1.34 // indirect
-	github.com/tx7do/go-utils/mapper v0.0.3 // indirect
+	github.com/52dev/go-crud/api v1.0.0 // indirect
+	github.com/52dev/go-crud/pagination v1.0.0 // indirect
+	github.com/52dev/go-utils v1.0.0 // indirect
+	github.com/52dev/go-utils/mapper v1.0.0 // indirect
 	github.com/zeebo/xxh3 v1.1.0 // indirect
 	go.einride.tech/aip v0.80.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect

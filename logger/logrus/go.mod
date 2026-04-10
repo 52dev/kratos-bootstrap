@@ -1,17 +1,17 @@
-module github.com/tx7do/kratos-bootstrap/logger/logrus
+module github.com/52dev/kratos-bootstrap/logger/logrus
 
 go 1.24.6
 
 replace (
-	github.com/tx7do/kratos-bootstrap/api => ../../api
-	github.com/tx7do/kratos-bootstrap/logger => ../
+	github.com/52dev/kratos-bootstrap/api => ../../api
+	github.com/52dev/kratos-bootstrap/logger => ../
 )
 
 require (
+	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/logger v0.1.2
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/sirupsen/logrus v1.9.3
-	github.com/tx7do/kratos-bootstrap/api v0.0.33
-	github.com/tx7do/kratos-bootstrap/logger v0.1.2
 )
 
 require (

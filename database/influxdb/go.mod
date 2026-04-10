@@ -1,13 +1,13 @@
-module github.com/tx7do/kratos-bootstrap/database/influxdb
+module github.com/52dev/kratos-bootstrap/database/influxdb
 
 go 1.24.11
 
-replace github.com/tx7do/kratos-bootstrap/api => ../../api
+replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/tx7do/go-crud/influxdb v0.0.7
-	github.com/tx7do/kratos-bootstrap/api v0.0.34
+	github.com/52dev/go-crud/influxdb v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.0
 )
 
 require (
@@ -21,9 +21,9 @@ require (
 	github.com/klauspost/compress v1.18.3 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/pierrec/lz4/v4 v4.1.25 // indirect
-	github.com/tx7do/go-crud/api v0.0.7 // indirect
-	github.com/tx7do/go-crud/pagination v0.0.8 // indirect
-	github.com/tx7do/go-utils v1.1.34 // indirect
+	github.com/52dev/go-crud/api v1.0.0 // indirect
+	github.com/52dev/go-crud/pagination v1.0.0 // indirect
+	github.com/52dev/go-utils v1.0.0 // indirect
 	github.com/zeebo/xxh3 v1.0.2 // indirect
 	go.einride.tech/aip v0.79.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect

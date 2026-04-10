@@ -7,9 +7,9 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 
-	entCrud "github.com/tx7do/go-crud/entgo"
+	entCrud "github.com/52dev/go-crud/entgo"
 )
 
 // DbCreator 定义创建Ent ORM数据库客户端的函数类型

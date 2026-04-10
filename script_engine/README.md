@@ -14,9 +14,9 @@ import (
     "context"
     "fmt"
     
-    _ "github.com/tx7do/go-scripts/javascript"
-    conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
-    "github.com/tx7do/kratos-bootstrap/script_engine"
+    _ "github.com/52dev/go-scripts/javascript"
+    conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
+    "github.com/52dev/kratos-bootstrap/script_engine"
     "google.golang.org/protobuf/types/known/wrapperspb"
 )
 

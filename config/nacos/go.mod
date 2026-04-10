@@ -1,17 +1,17 @@
-module github.com/tx7do/kratos-bootstrap/config/nacos
+module github.com/52dev/kratos-bootstrap/config/nacos
 
 go 1.24.6
 
 replace (
-	github.com/tx7do/kratos-bootstrap/api => ../../api
-	github.com/tx7do/kratos-bootstrap/config => ../
+	github.com/52dev/kratos-bootstrap/api => ../../api
+	github.com/52dev/kratos-bootstrap/config => ../
 )
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/nacos-group/nacos-sdk-go/v2 v2.3.5
-	github.com/tx7do/kratos-bootstrap/api v0.0.34
-	github.com/tx7do/kratos-bootstrap/config v0.2.2
+	github.com/52dev/kratos-bootstrap/api v0.0.34
+	github.com/52dev/kratos-bootstrap/config v0.2.2
 )
 
 require (

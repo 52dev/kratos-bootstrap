@@ -3,9 +3,9 @@ package gorm
 import (
 	"github.com/go-kratos/kratos/v2/log"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 
-	gormCrud "github.com/tx7do/go-crud/gorm"
+	gormCrud "github.com/52dev/go-crud/gorm"
 )
 
 // NewGormClient 创建GORM数据库客户端

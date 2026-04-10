@@ -1,18 +1,18 @@
-module github.com/tx7do/kratos-bootstrap/logger/zap
+module github.com/52dev/kratos-bootstrap/logger/zap
 
 go 1.24.6
 
 replace (
-	github.com/tx7do/kratos-bootstrap/api => ../../api
-	github.com/tx7do/kratos-bootstrap/logger => ../
+	github.com/52dev/kratos-bootstrap/api => ../../api
+	github.com/52dev/kratos-bootstrap/logger => ../
 )
 
 require (
+	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/logger v0.1.2
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/rs/zerolog v1.34.0
-	github.com/tx7do/kratos-bootstrap/api v0.0.33
-	github.com/tx7do/kratos-bootstrap/logger v0.1.2
 )
 
 require (

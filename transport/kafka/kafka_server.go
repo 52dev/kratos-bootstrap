@@ -3,11 +3,11 @@ package kafka
 import (
 	"crypto/tls"
 
-	tlsUtils "github.com/tx7do/go-utils/tls"
-	kafkaBroker "github.com/tx7do/kratos-transport/broker/kafka"
-	kafkaTransport "github.com/tx7do/kratos-transport/transport/kafka"
+	tlsUtils "github.com/52dev/go-utils/tls"
+	kafkaBroker "github.com/52dev/kratos-transport/broker/kafka"
+	kafkaTransport "github.com/52dev/kratos-transport/transport/kafka"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/52dev/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 // NewKafkaServer creates a new Kafka server.

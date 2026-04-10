@@ -1,16 +1,16 @@
-module github.com/tx7do/kratos-bootstrap/config/kubernetes
+module github.com/52dev/kratos-bootstrap/config/kubernetes
 
 go 1.25.0
 
 replace (
-	github.com/tx7do/kratos-bootstrap/api => ../../api
-	github.com/tx7do/kratos-bootstrap/config => ../
+	github.com/52dev/kratos-bootstrap/api => ../../api
+	github.com/52dev/kratos-bootstrap/config => ../
 )
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/tx7do/kratos-bootstrap/api v0.0.33
-	github.com/tx7do/kratos-bootstrap/config v0.2.2
+	github.com/52dev/kratos-bootstrap/api v0.0.33
+	github.com/52dev/kratos-bootstrap/config v0.2.2
 	k8s.io/api v0.35.0
 	k8s.io/apimachinery v0.35.0
 	k8s.io/client-go v0.35.0
