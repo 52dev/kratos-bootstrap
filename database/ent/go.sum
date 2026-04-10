@@ -63,8 +63,6 @@ github.com/52dev/go-crud/entgo v0.0.29 h1:YNcE8EAYSUuSGj2xksmLXU51H/zUa16CA+TJWH
 github.com/52dev/go-crud/entgo v0.0.29/go.mod h1:xJ01qfhErev2DtOVlQv7snq1sBvsJcMZFtAIybEMxks=
 github.com/52dev/go-crud/pagination v0.0.8 h1:lPmWeuBAxOo23rlgoBGQj4l4BH1V4yqsuA5DAvpkPrs=
 github.com/52dev/go-crud/pagination v0.0.8/go.mod h1:NSLa1QzYF5vUhueBsEBBXFxtqYO43jNhxl1DtsHNeLM=
-github.com/52dev/go-utils v1.1.34 h1:pE37CWljZkuqT1xs3nHsmg1SFXxJVAPXfbhUPXAo3fA=
-github.com/52dev/go-utils v1.1.34/go.mod h1:h4l7qbtVr1MCDtgue/FGimhdPxwfR9UIL91U3CKnQSk=
 github.com/52dev/go-utils/mapper v0.0.3 h1:Z7YoPVsa6I3lfWGSUoa9atujHWeF3kP+yKfS6Rkx5SM=
 github.com/52dev/go-utils/mapper v0.0.3/go.mod h1:zziBbtoqCt8pRw+jmK9Ic9sRD7a2yCLWG40Hy2UCSCs=
 github.com/xiaoqidun/entps v1.44.1 h1:ngOhyhjDoMVQT5WkWgXb58gWubJodqgYadb/irhVAXQ=

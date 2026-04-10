@@ -5,8 +5,6 @@ buf.build/go/protovalidate v1.1.0/go.mod h1:bGZcPiAQDC3ErCHK3t74jSoJDFOs2JH3d7LW
 cel.dev/expr v0.25.1 h1:1KrZg61W6TWSxuNZ37Xy49ps13NUovb66QLprthtwi4=
 cel.dev/expr v0.25.1/go.mod h1:hrXvqGP6G6gyx8UAHSHJ5RGk//1Oj5nXQ2NI02Nrsg4=
 github.com/52dev/go-utils v1.0.0/go.mod h1:E/YDy0vNL/GTX4A57rc5xaPbJGd389W41ChGIpPJNMo=
-github.com/52dev/go-utils v1.1.34 h1:pE37CWljZkuqT1xs3nHsmg1SFXxJVAPXfbhUPXAo3fA=
-github.com/52dev/go-utils v1.1.34/go.mod h1:h4l7qbtVr1MCDtgue/FGimhdPxwfR9UIL91U3CKnQSk=
 github.com/antlr4-go/antlr/v4 v4.13.1 h1:SqQKkuVZ+zWkMMNkjy5FZe5mr5WURWnlpmOuzYWrPrQ=
 github.com/antlr4-go/antlr/v4 v4.13.1/go.mod h1:GKmUxMtwp6ZgGwZSva4eWPC5mS6vUAmOABFgjdkM7Nw=
 github.com/brianvoe/gofakeit/v6 v6.28.0 h1:Xib46XXuQfmlLS2EXRuJpqcw8St6qSZz75OUo0tgAW4=

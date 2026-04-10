@@ -77,8 +77,6 @@ github.com/52dev/go-crud/influxdb v0.0.7 h1:4ryIzGw6vT5FzEYp7Y+XPgOA7Ml3qIKI52Ad
 github.com/52dev/go-crud/influxdb v0.0.7/go.mod h1:2PzLs6hfIRMyRcwcBoOZYYHiBGHSJ5E3ruQRoh/4qzA=
 github.com/52dev/go-crud/pagination v0.0.8 h1:lPmWeuBAxOo23rlgoBGQj4l4BH1V4yqsuA5DAvpkPrs=
 github.com/52dev/go-crud/pagination v0.0.8/go.mod h1:NSLa1QzYF5vUhueBsEBBXFxtqYO43jNhxl1DtsHNeLM=
-github.com/52dev/go-utils v1.1.34 h1:pE37CWljZkuqT1xs3nHsmg1SFXxJVAPXfbhUPXAo3fA=
-github.com/52dev/go-utils v1.1.34/go.mod h1:h4l7qbtVr1MCDtgue/FGimhdPxwfR9UIL91U3CKnQSk=
 github.com/zeebo/assert v1.3.0 h1:g7C04CbJuIDKNPFHmsk4hwZDO5O+kntRxzaUoNXj+IQ=
 github.com/zeebo/assert v1.3.0/go.mod h1:Pq9JiuJQpG8JLJdtkwrJESF0Foym2/D9XMU5ciN/wJ0=
 github.com/zeebo/xxh3 v1.0.2 h1:xZmwmqxHZA8AI603jOQ0tMqmBr9lPeFwGg6d+xy9DC0=

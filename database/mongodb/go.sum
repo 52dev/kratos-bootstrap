@@ -32,8 +32,6 @@ github.com/52dev/go-crud/mongodb v0.0.7 h1:g1GebMlwdaW/Gs2v+WwvyyFfkAiKTIlcv5ZWX
 github.com/52dev/go-crud/mongodb v0.0.7/go.mod h1:hDOJoya+VgkXieNl/2X4YpY9qO8n+VsuAnkUP5W99SM=
 github.com/52dev/go-crud/pagination v0.0.8 h1:lPmWeuBAxOo23rlgoBGQj4l4BH1V4yqsuA5DAvpkPrs=
 github.com/52dev/go-crud/pagination v0.0.8/go.mod h1:NSLa1QzYF5vUhueBsEBBXFxtqYO43jNhxl1DtsHNeLM=
-github.com/52dev/go-utils v1.1.34 h1:pE37CWljZkuqT1xs3nHsmg1SFXxJVAPXfbhUPXAo3fA=
-github.com/52dev/go-utils v1.1.34/go.mod h1:h4l7qbtVr1MCDtgue/FGimhdPxwfR9UIL91U3CKnQSk=
 github.com/52dev/go-utils/mapper v0.0.3 h1:Z7YoPVsa6I3lfWGSUoa9atujHWeF3kP+yKfS6Rkx5SM=
 github.com/52dev/go-utils/mapper v0.0.3/go.mod h1:zziBbtoqCt8pRw+jmK9Ic9sRD7a2yCLWG40Hy2UCSCs=
 github.com/xdg-go/pbkdf2 v1.0.0 h1:Su7DPu48wXMwC3bs7MCNG+z4FhcyEuz5dlvchbq0B0c=

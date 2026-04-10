@@ -70,8 +70,6 @@ github.com/52dev/go-crud/clickhouse v0.0.12 h1:AiCyov/FMPID3B0JaIbZPqpClYgkJEP9I
 github.com/52dev/go-crud/clickhouse v0.0.12/go.mod h1:zahAttDKIn2wLHS9AzyLDVuzlJwb6A1xh2GpJ1ihlUQ=
 github.com/52dev/go-crud/pagination v0.0.13 h1:LPUkBPAj0WC9VzFKcTWHzk7ozl1gZVAN3tq5Oj8uBbQ=
 github.com/52dev/go-crud/pagination v0.0.13/go.mod h1:LT3Cwgqoav7rMGCMzrIxp0Iux22+XzHIYzvo3patte8=
-github.com/52dev/go-utils v1.1.34 h1:pE37CWljZkuqT1xs3nHsmg1SFXxJVAPXfbhUPXAo3fA=
-github.com/52dev/go-utils v1.1.34/go.mod h1:h4l7qbtVr1MCDtgue/FGimhdPxwfR9UIL91U3CKnQSk=
 github.com/52dev/go-utils/mapper v0.0.3 h1:Z7YoPVsa6I3lfWGSUoa9atujHWeF3kP+yKfS6Rkx5SM=
 github.com/52dev/go-utils/mapper v0.0.3/go.mod h1:zziBbtoqCt8pRw+jmK9Ic9sRD7a2yCLWG40Hy2UCSCs=
 github.com/xdg-go/pbkdf2 v1.0.0/go.mod h1:jrpuAogTd400dnrH08LKmI/xc1MbPOebTwRqcT5RDeI=
