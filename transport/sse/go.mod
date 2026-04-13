@@ -6,7 +6,7 @@ replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/52dev/kratos-bootstrap/api v1.0.0
-	github.com/52dev/kratos-transport/transport/sse v1.0.0
+	github.com/52dev/kratos-transport/transport/sse v1.0.1
 )
 
 require (
@@ -22,9 +22,9 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.8 // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
-	github.com/52dev/kratos-transport/broker v1.0.0 // indirect
-	github.com/52dev/kratos-transport/tracing v1.0.0 // indirect
-	github.com/52dev/kratos-transport/transport v1.0.0 // indirect
+	github.com/52dev/kratos-transport/broker v1.0.1 // indirect
+	github.com/52dev/kratos-transport/tracing v1.0.1 // indirect
+	github.com/52dev/kratos-transport/transport v1.0.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.40.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.40.0 // indirect

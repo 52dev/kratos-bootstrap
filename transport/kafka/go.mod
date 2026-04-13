@@ -7,8 +7,8 @@ replace github.com/52dev/kratos-bootstrap/api => ../../api
 require (
 	github.com/52dev/go-utils v1.0.1
 	github.com/52dev/kratos-bootstrap/api  v1.0.0
-	github.com/52dev/kratos-transport/broker/kafka  v1.0.0
-	github.com/52dev/kratos-transport/transport/kafka  v1.0.0
+	github.com/52dev/kratos-transport/broker/kafka  v1.0.1
+	github.com/52dev/kratos-transport/transport/kafka  v1.0.1
 )
 
 require (
@@ -26,10 +26,10 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.26 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/segmentio/kafka-go v0.4.50 // indirect
-	github.com/52dev/kratos-transport/broker  v1.0.0 // indirect
-	github.com/52dev/kratos-transport/tracing  v1.0.0 // indirect
-	github.com/52dev/kratos-transport/transport  v1.0.0 // indirect
-	github.com/52dev/kratos-transport/transport/keepalive  v1.0.0 // indirect
+	github.com/52dev/kratos-transport/broker  v1.0.1 // indirect
+	github.com/52dev/kratos-transport/tracing  v1.0.1 // indirect
+	github.com/52dev/kratos-transport/transport  v1.0.1 // indirect
+	github.com/52dev/kratos-transport/transport/keepalive  v1.0.1 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.2.0 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
