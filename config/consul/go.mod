@@ -12,8 +12,8 @@ replace (
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/hashicorp/consul/api v1.33.0
-	github.com/52dev/kratos-bootstrap/api v0.0.33
-	github.com/52dev/kratos-bootstrap/config v0.2.2
+	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/config v1.0.0
 )
 
 require (

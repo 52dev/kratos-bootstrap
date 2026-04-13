@@ -6,7 +6,7 @@ replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/mark3labs/mcp-go v0.43.2
-	github.com/52dev/kratos-bootstrap/api v0.0.35
+	github.com/52dev/kratos-bootstrap/api v1.0.0
 	github.com/52dev/kratos-transport/transport/mcp  v1.0.0
 )
 

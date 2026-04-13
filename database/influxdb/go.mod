@@ -5,15 +5,15 @@ go 1.25.0
 replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
-	github.com/52dev/go-crud/influxdb v1.0.0
+	github.com/52dev/go-crud/influxdb v1.0.1
 	github.com/52dev/kratos-bootstrap/api v1.0.0
 	github.com/go-kratos/kratos/v2 v2.9.2
 )
 
 require (
-	github.com/52dev/go-crud/api v1.0.0 // indirect
-	github.com/52dev/go-crud/pagination v1.0.0 // indirect
-	github.com/52dev/go-utils v1.0.0 // indirect
+	github.com/52dev/go-crud/api v1.0.1 // indirect
+	github.com/52dev/go-crud/pagination v1.0.1 // indirect
+	github.com/52dev/go-utils v1.0.1 // indirect
 	github.com/InfluxCommunity/influxdb3-go/v2 v2.13.0 // indirect
 	github.com/apache/arrow-go/v18 v18.5.2 // indirect
 	github.com/goccy/go-json v0.10.5 // indirect

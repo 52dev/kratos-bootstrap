@@ -5,7 +5,7 @@ go 1.25.0
 replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
-	github.com/52dev/go-utils v1.0.0
+	github.com/52dev/go-utils v1.0.1
 	github.com/52dev/kratos-bootstrap/api v1.0.0
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/gocql/gocql v1.7.0

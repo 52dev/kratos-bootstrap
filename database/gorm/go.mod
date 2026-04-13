@@ -5,7 +5,7 @@ go 1.25.7
 replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
-	github.com/52dev/go-crud/gorm v1.0.0
+	github.com/52dev/go-crud/gorm v1.0.1
 	github.com/52dev/kratos-bootstrap/api v1.0.0
 	github.com/go-kratos/kratos/v2 v2.9.2
 )
@@ -18,10 +18,10 @@ require (
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
 	cloud.google.com/go/iam v1.5.3 // indirect
 	filippo.io/edwards25519 v1.2.0 // indirect
-	github.com/52dev/go-crud/api v1.0.0 // indirect
-	github.com/52dev/go-crud/pagination v1.0.0 // indirect
-	github.com/52dev/go-utils v1.0.0 // indirect
-	github.com/52dev/go-utils/mapper v1.0.0 // indirect
+	github.com/52dev/go-crud/api v1.0.1 // indirect
+	github.com/52dev/go-crud/pagination v1.0.1 // indirect
+	github.com/52dev/go-utils v1.0.1 // indirect
+	github.com/52dev/go-utils/mapper v1.0.1 // indirect
 	github.com/ClickHouse/ch-go v0.71.0 // indirect
 	github.com/ClickHouse/clickhouse-go/v2 v2.43.0 // indirect
 	github.com/HuaweiCloudDeveloper/gaussdb-go v1.0.0-rc1 // indirect
@@ -84,15 +84,15 @@ require (
 	go.opentelemetry.io/otel/trace v1.42.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.49.0 // indirect
+	golang.org/x/crypto v0.50.0 // indirect
 	golang.org/x/exp v0.0.0-20260312153236-7ab1446f8b90 // indirect
 	golang.org/x/mod v0.34.0 // indirect
 	golang.org/x/net v0.52.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
-	golang.org/x/sys v0.42.0 // indirect
+	golang.org/x/sys v0.43.0 // indirect
 	golang.org/x/telemetry v0.0.0-20260311193753-579e4da9a98c // indirect
-	golang.org/x/text v0.35.0 // indirect
+	golang.org/x/text v0.36.0 // indirect
 	golang.org/x/time v0.15.0 // indirect
 	golang.org/x/tools v0.43.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect

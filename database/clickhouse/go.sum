@@ -8,6 +8,7 @@ github.com/52dev/go-crud/pagination v0.0.13 h1:LPUkBPAj0WC9VzFKcTWHzk7ozl1gZVAN3
 github.com/52dev/go-crud/pagination v0.0.13/go.mod h1:LT3Cwgqoav7rMGCMzrIxp0Iux22+XzHIYzvo3patte8=
 github.com/52dev/go-crud/pagination v1.0.0/go.mod h1:idnriVgEi029Q5lpkrEG9KdiMKKOT9ydzIQr+9Y9iSM=
 github.com/52dev/go-utils v1.0.0/go.mod h1:E/YDy0vNL/GTX4A57rc5xaPbJGd389W41ChGIpPJNMo=
+github.com/52dev/go-utils v1.0.1/go.mod h1:Qlf/h2OT3v6FXCiFt/yRQtsWbja4XwuDFtBAgEcqyF8=
 github.com/52dev/go-utils/mapper v0.0.3 h1:Z7YoPVsa6I3lfWGSUoa9atujHWeF3kP+yKfS6Rkx5SM=
 github.com/52dev/go-utils/mapper v0.0.3/go.mod h1:zziBbtoqCt8pRw+jmK9Ic9sRD7a2yCLWG40Hy2UCSCs=
 github.com/52dev/go-utils/mapper v1.0.0/go.mod h1:ryqvurk8yiLcqpsdJ85F+OOT+E9rqg2zeYwjTfnzl+8=
