@@ -7,7 +7,7 @@ replace github.com/52dev/kratos-bootstrap/api => ../../api
 require (
 	entgo.io/ent v0.14.5
 	github.com/52dev/go-crud/entgo v1.0.1
-	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.1
 	github.com/go-kratos/kratos/v2 v2.9.2
 )
 

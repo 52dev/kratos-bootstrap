@@ -7,7 +7,7 @@ replace github.com/52dev/kratos-bootstrap/api => ../api
 require (
 	buf.build/go/protovalidate v1.1.0
 	github.com/52dev/go-utils v1.0.0
-	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.1
 	github.com/go-kratos/aegis v0.2.0
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/google/uuid v1.6.0

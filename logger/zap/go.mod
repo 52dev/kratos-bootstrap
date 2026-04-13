@@ -8,7 +8,7 @@ replace (
 )
 
 require (
-	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.1
 	github.com/52dev/kratos-bootstrap/logger v0.1.2
 	github.com/go-kratos/kratos/contrib/log/zap/v2 v2.0.0-20251217105121-fb8e43efb207
 	github.com/go-kratos/kratos/v2 v2.9.2

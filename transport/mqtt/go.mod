@@ -5,7 +5,7 @@ go 1.25.3
 replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
-	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.1
 	github.com/52dev/kratos-transport/transport/mqtt v1.0.1
 )
 

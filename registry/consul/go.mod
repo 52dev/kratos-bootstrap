@@ -13,7 +13,7 @@ require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/hashicorp/consul/api v1.33.0
 	github.com/stretchr/testify v1.11.1
-	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.1
 	github.com/52dev/kratos-bootstrap/registry v1.0.0
 )
 

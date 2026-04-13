@@ -6,7 +6,7 @@ replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/52dev/go-utils v1.0.1
-	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.1
 	github.com/52dev/kratos-transport/broker/kafka v1.0.1
 	github.com/52dev/kratos-transport/transport/kafka v1.0.1
 )

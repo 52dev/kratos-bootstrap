@@ -13,7 +13,7 @@ replace (
 require (
 	github.com/52dev/go-utils v1.0.1
 	github.com/52dev/go-utils/id v1.0.1
-	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.1
 	github.com/52dev/kratos-bootstrap/config v1.0.0
 	github.com/52dev/kratos-bootstrap/logger v1.0.0
 	github.com/52dev/kratos-bootstrap/registry v1.0.0

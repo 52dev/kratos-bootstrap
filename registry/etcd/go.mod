@@ -12,7 +12,7 @@ replace (
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/stretchr/testify v1.11.1
-	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.1
 	github.com/52dev/kratos-bootstrap/registry v0.2.2
 	go.etcd.io/etcd/client/v3 v3.6.7
 	google.golang.org/grpc v1.77.0

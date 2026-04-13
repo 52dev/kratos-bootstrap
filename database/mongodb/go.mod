@@ -6,7 +6,7 @@ replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/52dev/go-crud/mongodb v1.0.1
-	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.1
 	github.com/go-kratos/kratos/v2 v2.9.2
 	go.mongodb.org/mongo-driver/v2 v2.5.0
 )

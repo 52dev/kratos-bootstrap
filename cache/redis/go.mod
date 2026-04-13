@@ -5,7 +5,7 @@ go 1.24.6
 replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
-	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.1
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/redis/go-redis/extra/redisotel/v9 v9.17.2
 	github.com/redis/go-redis/v9 v9.17.2

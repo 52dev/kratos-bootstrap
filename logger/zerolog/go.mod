@@ -8,7 +8,7 @@ replace (
 )
 
 require (
-	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/52dev/kratos-bootstrap/api v1.0.1
 	github.com/52dev/kratos-bootstrap/logger v0.1.2
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/natefinch/lumberjack v2.0.0+incompatible
