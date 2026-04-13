@@ -16,7 +16,6 @@ require (
 	github.com/52dev/go-crud/pagination v1.0.1 // indirect
 	github.com/52dev/go-utils v1.0.1 // indirect
 	github.com/52dev/go-utils/mapper v1.0.1 // indirect
-	github.com/golang/snappy v1.0.0 // indirect
 	github.com/google/gnostic v0.7.1 // indirect
 	github.com/google/gnostic-models v0.7.1 // indirect
 	github.com/jinzhu/copier v0.4.0 // indirect
@@ -26,7 +25,6 @@ require (
 	github.com/xdg-go/stringprep v1.0.4 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20240726163527-a2c0da244d78 // indirect
 	go.einride.tech/aip v0.81.0 // indirect
-	go.mongodb.org/mongo-driver v1.17.6 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/crypto v0.50.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
