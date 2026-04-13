@@ -12,6 +12,7 @@ message Authentication {
   message Jwt {
     string method = 1; // JWT签名的算法，支持算法：HS256
     string key = 2; // JWT 秘钥
+    optional string public_key = 3; // JWT 公钥（仅在method为RS256时使用）
   }
 
   message OIDC {

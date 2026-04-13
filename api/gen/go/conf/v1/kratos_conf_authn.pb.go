@@ -94,8 +94,9 @@ func (x *Authentication) GetPresharedKey() *Authentication_PresharedKey {
 // JWT
 type Authentication_Jwt struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
-	Method        string                 `protobuf:"bytes,1,opt,name=method,proto3" json:"method,omitempty"` // JWT签名的算法，支持算法：HS256
-	Key           string                 `protobuf:"bytes,2,opt,name=key,proto3" json:"key,omitempty"`       // JWT 秘钥
+	Method        string                 `protobuf:"bytes,1,opt,name=method,proto3" json:"method,omitempty"`                              // JWT签名的算法，支持算法：HS256
+	Key           string                 `protobuf:"bytes,2,opt,name=key,proto3" json:"key,omitempty"`                                    // JWT 秘钥
+	PublicKey     *string                `protobuf:"bytes,3,opt,name=public_key,json=publicKey,proto3,oneof" json:"public_key,omitempty"` // JWT 公钥（仅在method为RS256时使用）
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
 }
@@ -140,6 +141,13 @@ func (x *Authentication_Jwt) GetMethod() string {
 func (x *Authentication_Jwt) GetKey() string {
 	if x != nil {
 		return x.Key
+	}
+	return ""
+}
+
+func (x *Authentication_Jwt) GetPublicKey() string {
+	if x != nil && x.PublicKey != nil {
+		return *x.PublicKey
 	}
 	return ""
 }
@@ -252,15 +260,18 @@ var File_conf_v1_kratos_conf_authn_proto protoreflect.FileDescriptor
 
 const file_conf_v1_kratos_conf_authn_proto_rawDesc = "" +
 	"\n" +
-	"\x1fconf/v1/kratos_conf_authn.proto\x12\x04conf\x1a\x1egoogle/protobuf/duration.proto\"\xb4\x03\n" +
+	"\x1fconf/v1/kratos_conf_authn.proto\x12\x04conf\x1a\x1egoogle/protobuf/duration.proto\"\xe7\x03\n" +
 	"\x0eAuthentication\x12\x12\n" +
 	"\x04type\x18\x01 \x01(\tR\x04type\x12/\n" +
 	"\x03jwt\x18\x02 \x01(\v2\x18.conf.Authentication.JwtH\x00R\x03jwt\x88\x01\x01\x122\n" +
 	"\x04oidc\x18\x03 \x01(\v2\x19.conf.Authentication.OIDCH\x01R\x04oidc\x88\x01\x01\x12K\n" +
-	"\rpreshared_key\x18\x04 \x01(\v2!.conf.Authentication.PresharedKeyH\x02R\fpresharedKey\x88\x01\x01\x1a/\n" +
+	"\rpreshared_key\x18\x04 \x01(\v2!.conf.Authentication.PresharedKeyH\x02R\fpresharedKey\x88\x01\x01\x1ab\n" +
 	"\x03Jwt\x12\x16\n" +
 	"\x06method\x18\x01 \x01(\tR\x06method\x12\x10\n" +
-	"\x03key\x18\x02 \x01(\tR\x03key\x1aY\n" +
+	"\x03key\x18\x02 \x01(\tR\x03key\x12\"\n" +
+	"\n" +
+	"public_key\x18\x03 \x01(\tH\x00R\tpublicKey\x88\x01\x01B\r\n" +
+	"\v_public_key\x1aY\n" +
 	"\x04OIDC\x12\x1d\n" +
 	"\n" +
 	"issuer_url\x18\x01 \x01(\tR\tissuerUrl\x12\x1a\n" +
@@ -310,6 +321,7 @@ func file_conf_v1_kratos_conf_authn_proto_init() {
 		return
 	}
 	file_conf_v1_kratos_conf_authn_proto_msgTypes[0].OneofWrappers = []any{}
+	file_conf_v1_kratos_conf_authn_proto_msgTypes[1].OneofWrappers = []any{}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
