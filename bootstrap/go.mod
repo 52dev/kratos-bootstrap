@@ -11,18 +11,18 @@ replace (
 )
 
 require (
-	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/google/subcommands v1.2.0
-	github.com/olekukonko/tablewriter v1.1.2
-	github.com/spf13/cobra v1.10.2
-	github.com/stretchr/testify v1.11.1
-	github.com/52dev/go-utils v1.0.0
+	github.com/52dev/go-utils v1.1.34
 	github.com/52dev/go-utils/id v1.0.0
 	github.com/52dev/kratos-bootstrap/api v1.0.0
 	github.com/52dev/kratos-bootstrap/config v1.0.0
 	github.com/52dev/kratos-bootstrap/logger v1.0.0
 	github.com/52dev/kratos-bootstrap/registry v1.0.0
 	github.com/52dev/kratos-bootstrap/tracer v1.0.0
+	github.com/go-kratos/kratos/v2 v2.9.2
+	github.com/google/subcommands v1.2.0
+	github.com/olekukonko/tablewriter v1.1.2
+	github.com/spf13/cobra v1.10.2
+	github.com/stretchr/testify v1.11.1
 	golang.org/x/tools v0.40.0
 )
 

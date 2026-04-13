@@ -1,25 +1,29 @@
 module github.com/52dev/kratos-bootstrap/database/gorm
 
-go 1.25.4
+go 1.25.7
 
 replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
-	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/52dev/go-crud/gorm v1.0.0
 	github.com/52dev/kratos-bootstrap/api v1.0.0
+	github.com/go-kratos/kratos/v2 v2.9.2
 )
 
 require (
 	cloud.google.com/go v0.123.0 // indirect
-	cloud.google.com/go/auth v0.18.1 // indirect
+	cloud.google.com/go/auth v0.18.2 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.8 // indirect
-	cloud.google.com/go/bigquery v1.72.0 // indirect
+	cloud.google.com/go/bigquery v1.74.0 // indirect
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
 	cloud.google.com/go/iam v1.5.3 // indirect
-	filippo.io/edwards25519 v1.1.0 // indirect
-	github.com/ClickHouse/ch-go v0.70.0 // indirect
-	github.com/ClickHouse/clickhouse-go/v2 v2.42.0 // indirect
+	filippo.io/edwards25519 v1.2.0 // indirect
+	github.com/52dev/go-crud/api v1.0.0 // indirect
+	github.com/52dev/go-crud/pagination v1.0.0 // indirect
+	github.com/52dev/go-utils v1.0.0 // indirect
+	github.com/52dev/go-utils/mapper v1.0.0 // indirect
+	github.com/ClickHouse/ch-go v0.71.0 // indirect
+	github.com/ClickHouse/clickhouse-go/v2 v2.43.0 // indirect
 	github.com/HuaweiCloudDeveloper/gaussdb-go v1.0.0-rc1 // indirect
 	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/apache/arrow/go/v15 v15.0.2 // indirect
@@ -42,8 +46,8 @@ require (
 	github.com/google/gnostic-models v0.7.1 // indirect
 	github.com/google/s2a-go v0.1.9 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/googleapis/enterprise-certificate-proxy v0.3.11 // indirect
-	github.com/googleapis/gax-go/v2 v2.16.0 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.3.14 // indirect
+	github.com/googleapis/gax-go/v2 v2.17.0 // indirect
 	github.com/hashicorp/go-version v1.8.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
@@ -52,55 +56,51 @@ require (
 	github.com/jinzhu/copier v0.4.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
-	github.com/klauspost/compress v1.18.3 // indirect
+	github.com/klauspost/compress v1.18.4 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/mattn/go-sqlite3 v1.14.33 // indirect
-	github.com/microsoft/go-mssqldb v1.9.6 // indirect
+	github.com/mattn/go-sqlite3 v1.14.34 // indirect
+	github.com/microsoft/go-mssqldb v1.9.8 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/ncruces/go-strftime v1.0.0 // indirect
 	github.com/paulmach/orb v0.12.0 // indirect
-	github.com/pierrec/lz4/v4 v4.1.25 // indirect
+	github.com/pierrec/lz4/v4 v4.1.26 // indirect
 	github.com/prometheus/client_golang v1.23.2 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.67.5 // indirect
-	github.com/prometheus/procfs v0.19.2 // indirect
+	github.com/prometheus/procfs v0.20.1 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/segmentio/asm v1.2.1 // indirect
 	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/sirupsen/logrus v1.9.4 // indirect
 	github.com/tjfoc/gmsm v1.4.1 // indirect
-	github.com/52dev/go-crud/api v1.0.0 // indirect
-	github.com/52dev/go-crud/pagination v1.0.0 // indirect
-	github.com/52dev/go-utils v1.0.0 // indirect
-	github.com/52dev/go-utils/mapper v1.0.0 // indirect
 	github.com/zeebo/xxh3 v1.1.0 // indirect
-	go.einride.tech/aip v0.80.0 // indirect
+	go.einride.tech/aip v0.81.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.64.0 // indirect
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.64.0 // indirect
-	go.opentelemetry.io/otel v1.39.0 // indirect
-	go.opentelemetry.io/otel/metric v1.39.0 // indirect
-	go.opentelemetry.io/otel/trace v1.39.0 // indirect
-	go.yaml.in/yaml/v2 v2.4.3 // indirect
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.67.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.67.0 // indirect
+	go.opentelemetry.io/otel v1.42.0 // indirect
+	go.opentelemetry.io/otel/metric v1.42.0 // indirect
+	go.opentelemetry.io/otel/trace v1.42.0 // indirect
+	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.47.0 // indirect
-	golang.org/x/exp v0.0.0-20260112195511-716be5621a96 // indirect
-	golang.org/x/mod v0.32.0 // indirect
-	golang.org/x/net v0.49.0 // indirect
-	golang.org/x/oauth2 v0.34.0 // indirect
-	golang.org/x/sync v0.19.0 // indirect
-	golang.org/x/sys v0.40.0 // indirect
-	golang.org/x/telemetry v0.0.0-20260116145544-c6413dc483f5 // indirect
-	golang.org/x/text v0.33.0 // indirect
-	golang.org/x/time v0.14.0 // indirect
-	golang.org/x/tools v0.41.0 // indirect
+	golang.org/x/crypto v0.49.0 // indirect
+	golang.org/x/exp v0.0.0-20260312153236-7ab1446f8b90 // indirect
+	golang.org/x/mod v0.34.0 // indirect
+	golang.org/x/net v0.52.0 // indirect
+	golang.org/x/oauth2 v0.36.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
+	golang.org/x/telemetry v0.0.0-20260311193753-579e4da9a98c // indirect
+	golang.org/x/text v0.35.0 // indirect
+	golang.org/x/time v0.15.0 // indirect
+	golang.org/x/tools v0.43.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
-	google.golang.org/api v0.262.0 // indirect
-	google.golang.org/genproto v0.0.0-20260126211449-d11affda4bed // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20260126211449-d11affda4bed // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260126211449-d11affda4bed // indirect
-	google.golang.org/grpc v1.78.0 // indirect
+	google.golang.org/api v0.269.0 // indirect
+	google.golang.org/genproto v0.0.0-20260226221140-a57be14db171 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20260226221140-a57be14db171 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260226221140-a57be14db171 // indirect
+	google.golang.org/grpc v1.79.2 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gorm.io/driver/bigquery v1.2.0 // indirect
 	gorm.io/driver/clickhouse v0.7.0 // indirect
@@ -113,8 +113,8 @@ require (
 	gorm.io/plugin/dbresolver v1.6.2 // indirect
 	gorm.io/plugin/opentelemetry v0.1.16 // indirect
 	gorm.io/plugin/prometheus v0.1.0 // indirect
-	modernc.org/libc v1.67.7 // indirect
+	modernc.org/libc v1.69.0 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.44.3 // indirect
+	modernc.org/sqlite v1.46.1 // indirect
 )
