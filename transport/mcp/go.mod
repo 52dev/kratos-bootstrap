@@ -5,12 +5,16 @@ go 1.25.3
 replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
-	github.com/mark3labs/mcp-go v0.43.2
 	github.com/52dev/kratos-bootstrap/api v1.0.0
-	github.com/52dev/kratos-transport/transport/mcp  v1.0.1
+	github.com/52dev/kratos-transport/transport/mcp v1.0.1
+	github.com/mark3labs/mcp-go v0.43.2
 )
 
 require (
+	github.com/52dev/kratos-transport/broker v1.0.1 // indirect
+	github.com/52dev/kratos-transport/tracing v1.0.1 // indirect
+	github.com/52dev/kratos-transport/transport v1.0.1 // indirect
+	github.com/52dev/kratos-transport/transport/keepalive v1.0.1 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
@@ -27,10 +31,6 @@ require (
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/spf13/cast v1.10.0 // indirect
-	github.com/52dev/kratos-transport/broker  v1.0.1 // indirect
-	github.com/52dev/kratos-transport/tracing  v1.0.1 // indirect
-	github.com/52dev/kratos-transport/transport  v1.0.1 // indirect
-	github.com/52dev/kratos-transport/transport/keepalive  v1.0.1 // indirect
 	github.com/wk8/go-ordered-map/v2 v2.1.8 // indirect
 	github.com/yosida95/uritemplate/v3 v3.0.2 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect

@@ -5,13 +5,17 @@ go 1.25.3
 replace github.com/52dev/kratos-bootstrap/api => ../../api
 
 require (
-	github.com/hibiken/asynq v0.26.0
-	github.com/52dev/go-utils  v1.0.1
-	github.com/52dev/kratos-bootstrap/api  v1.0.0
+	github.com/52dev/go-utils v1.0.1
+	github.com/52dev/kratos-bootstrap/api v1.0.0
 	github.com/52dev/kratos-transport/transport/asynq v1.0.1
+	github.com/hibiken/asynq v0.26.0
 )
 
 require (
+	github.com/52dev/kratos-transport/broker v1.0.1 // indirect
+	github.com/52dev/kratos-transport/tracing v1.0.1 // indirect
+	github.com/52dev/kratos-transport/transport v1.0.1 // indirect
+	github.com/52dev/kratos-transport/transport/keepalive v1.0.1 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
@@ -27,10 +31,6 @@ require (
 	github.com/redis/go-redis/v9 v9.18.0 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/spf13/cast v1.10.0 // indirect
-	github.com/52dev/kratos-transport/broker  v1.0.1 // indirect
-	github.com/52dev/kratos-transport/tracing  v1.0.1 // indirect
-	github.com/52dev/kratos-transport/transport  v1.0.1 // indirect
-	github.com/52dev/kratos-transport/transport/keepalive  v1.0.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.43.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.43.0 // indirect
